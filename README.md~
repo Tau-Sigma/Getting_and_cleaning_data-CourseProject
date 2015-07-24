@@ -19,9 +19,9 @@ In section "Global settings" libraries needed to execute the script arevloaded a
 In section "Common data" activity labels and column names are loaded and transformed, where necessary.
 In section "Training data" the different files with training data are loaded and combined. Proper column names are assigned.
 In section "Test data" the different files with test data are loaded and combined. Proper column names are assigned. The steps for Test and Training data are the same.
-In section "Combined training and test data" the test and training data are combined. From the combined table only activity data columns, which contain means or standard deviations are kept. This is done by taking only those columns, where the column name contains the characters "mean", "Mean, or "std". The columns Subject (no. 2) and ActivityLabel (no. 564) are selected manually. This results in a table called "selectedColumns".
-In section "Column means of data grouped by subject and activity" another table ("GroupedColMeans") is created by grouping the result of section "Combined training and test data" by Subject and ActivityLabel. Then the mean is calculated for every variable for each Subject-ActivityLabel group.
-In section "Create output files" the result of section "Column means of data grouped by subject and activity" ("GroupedColMeans") is stored in txt files.
+In section "Combined training and test data" the test and training data are combined. From the combined table only activity data columns, which contain means or standard deviations are kept. This is done by taking only those columns, where the column name contains the characters "mean", "Mean, or "std". The columns Subject (no. 2) and ActivityLabel (no. 564) are selected manually.
+In section "Column means of data grouped by subject and activity" another table is created by group the result of section "Combined training and test data" by Subject and ActivityLabel. Then the mean is calculated for every variable for each Subject-ActivityLabel group.
+In section "Create output files" the results of sections "Combined training and test data" and "Column means of data grouped by subject and activity" are stored in txt files.
  
 
 
