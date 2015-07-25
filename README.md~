@@ -8,7 +8,7 @@ The repo currently contains the following scripts:
 Please note that as the code itself is explained in more detail in the script, here only a brief description is given.
 
 ### run_analysis.R
-This script is an R script, which loads and transforms activity data from the accelerometers from the Samsung Galaxy S smartphone. Before running the script please change all references to directories and filenames according to the ones that are used on the machine on which the script is run. Please ensure that the plyr package is installed. To run the script, simply open it in RStudio and source it via the "Source" command in the "Code" menu. 
+This script is an R script, which loads activity data from the accelerometers from the Samsung Galaxy S smartphone. To run the script please make sure that the plyr package is installed in R. Before running the script please change all references to directories and filenames according to the ones that are used on the machine on which the script is run.  
 The data, which the script loads, is stored in different files. There is a data set with training data, one with test data and there are files with label information. The script loads the data from the relevant files, transforms it in certain ways and produces two output files. To make the script better understandable it has been divided into the sections
 * Global settings
 * Common data
